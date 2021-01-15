@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    credentials:
+      access-key: your or other persons IAM ACCESS KEY
+      secret-key: your or other persons IAM secret key
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: test-kms101
+
+server:
+  port: 9090
